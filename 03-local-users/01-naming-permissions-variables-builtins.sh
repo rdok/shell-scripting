@@ -2,7 +2,7 @@
 
 clear
 echo "================================================================================"
-echo " Training: Naming, Permissions, Variables, Builtins"
+echo " 03.a Training: Naming, Permissions, Variables, Builtins"
 echo "================================================================================"
 printf "\n>>> Entrypoint script loading..."
 
