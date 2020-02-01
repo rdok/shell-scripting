@@ -6,9 +6,6 @@ echo " 03.a Training: Naming, Permissions, Variables, Builtins"
 echo "================================================================================"
 printf "\n>>> Entrypoint script loading..."
 
-printf "\nSwitch default start path to shared files"
-echo "cd /vagrant" >> "/home/vagrant/.bashrc"
-
 printf "\n\n>>> Experimenting with variables\n"
 VARIABLE_NAME='__content___'
 echo "- Geting value using '\$VARIABLE_NAME': $VARIABLE_NAME"
