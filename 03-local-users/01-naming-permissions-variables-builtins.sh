@@ -12,7 +12,7 @@ echo "- Geting value using '\$VARIABLE_NAME': $VARIABLE_NAME"
 echo "- Geting value using '\${VARIABLE_NAME}': ${VARIABLE_NAME}"
 
 # shellcheck disable=SC2016
-echo '- Single quotes variables are not expended: $VARIABLE_NAME'
+echo '- Single quotes variables are not expanded: $VARIABLE_NAME'
 
 echo "- Append text using curly braces \${VARIABLE_NAME}text:"
 echo "   ${VARIABLE_NAME}text"

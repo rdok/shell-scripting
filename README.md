@@ -1,2 +1,6 @@
 # shell-scripting
-https://www.udemy.com/course/linux-shell-scripting-projects/
+
+```
+vagrant box add USER/BOX
+vagrant up|ssh|halt|up|suspend|resume|destroy [VM_NAME]?
+```

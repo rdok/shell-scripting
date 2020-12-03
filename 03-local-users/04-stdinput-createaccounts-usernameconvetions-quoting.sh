@@ -2,6 +2,8 @@
 
 test "$(id -u)" -ne 0 && echo 'Root required' && exit
 
+echo "Adding new user:"
+
 read -rp 'Username: ' USERNAME
 read -rp 'Name: ' NAME
 read -rp 'Password: ' PASSWORD
