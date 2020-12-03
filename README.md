@@ -1,3 +1,3 @@
 # shell-scripting
 
-`vagrant up`
+`vagrant up|reload|halt|destroy`
