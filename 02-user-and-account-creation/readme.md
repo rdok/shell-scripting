@@ -1,3 +1,7 @@
+# Story:
+- Creates new accounts
+- Checks for proper privileges
+- Reports if account creation failed.
 
 ```
 type -a id

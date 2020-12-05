@@ -8,8 +8,8 @@ printf "\n>>> Entrypoint script loading..."
 
 printf "\n\n>>> Experimenting with variables\n"
 VARIABLE_NAME='__content___'
-echo "- Geting value using '\$VARIABLE_NAME': $VARIABLE_NAME"
-echo "- Geting value using '\${VARIABLE_NAME}': ${VARIABLE_NAME}"
+echo "- Getting value using '\$VARIABLE_NAME': $VARIABLE_NAME"
+echo "- Getting value using '\${VARIABLE_NAME}': ${VARIABLE_NAME}"
 
 # shellcheck disable=SC2016
 echo '- Single quotes variables are not expanded: $VARIABLE_NAME'
